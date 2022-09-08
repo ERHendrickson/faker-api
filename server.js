@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker';
-import express from 'express';
-// const {faker} = require("@faker-js/faker");
+import express from 'express'; // this method only works if "type":"modules" added to package.json
+// const {faker} = require("@faker-js/faker"); //will work but needs also
 // const express = require('express'); //created a variable called express that will store express
 
 const app = express();
